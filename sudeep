@@ -1,15 +1,1 @@
-
- using in vi comends
-
-pipeline {
-    agent { docker { image 'php:8.2.9-alpine3.18' } }
-    stages {
-        stage('build') {
-            steps {
-                sh 'php --version'
-            }
-        }
-    }
-}
-
-2nd line from my git
+hello sudeep
